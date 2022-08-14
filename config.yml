@@ -1,0 +1,9 @@
+global:
+  sequences_file: deeploc_data.fasta
+  prefix: deeploc_embeddings
+  simple_remapping: True
+
+prottrans_bert_embeddings:
+  type: embed
+  protocol: prottrans_bert_bfd
+  reduce: True
